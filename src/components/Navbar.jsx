@@ -6,7 +6,7 @@ const Navbar = () => {
     <h2> Navbar </h2>
     <div className="navbarRight">
       <ul className="navbarLinks">
-        <li> <Link to ="/"> Home </Link> </li>
+        <li> <Link to ="/"> Portfolio </Link> </li>
         <li> <a target="_blank" href="https://www.instagram.com/charlesvaldez_/"> Instagram </a> </li>
         <li> <a target="_blank" href="https://www.linkedin.com/in/charles-valdez-293ba5258/"> LinkedIn </a> </li>
       </ul>
