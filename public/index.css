@@ -6,6 +6,16 @@ body {
   background-color: lightskyblue;
 }
 
+.icons:hover {
+  transform: scale(1.2);
+  cursor: pointer ;
+}
+
+.button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 .abilities {
   background-color: rgb(249, 230, 121);
   border: white solid 5px;
