@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return <div id="Navbar">
-    <h2> Navbar </h2>
+    <h2> Kanto Region Pokedex </h2>
     <div className="navbarRight">
       <ul className="navbarLinks">
         <li> <Link to ="/"> Portfolio </Link> </li>

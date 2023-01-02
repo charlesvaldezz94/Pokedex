@@ -16,8 +16,6 @@ const Icons = (props) => {
     }
   }
 
-  console.log(dexEntry)
-
   return (
     <div className="iconsContainer" onClick={popupTrigger}>
       {loading ? (
@@ -26,9 +24,9 @@ const Icons = (props) => {
         pokemonData.map((item) => {
           return (
             <div className="icons" key={item.id} onClick={()=>pokemonInfo(item)}>
-              <h2> {item.id} </h2>
-              <img src={item.sprites.front_default} alt="" />
-              <h2> {item.species.name} </h2>
+              <h2 id="pokeID"> {item.id} </h2>
+              <img id="pokeProfile" src={item.sprites.front_default} alt="" />
+              <h2 id="pokeName"> {item.species.name} </h2>
             </div>
           );
         })

@@ -24,7 +24,6 @@ const Home = (props) => {
 
   return (
     <div>
-      <h1 className="pokedex"> Pokedex </h1>
       <div className="homeIcons">
         <Icons
           pokemonData={pokemonData}
