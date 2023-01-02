@@ -18,6 +18,19 @@ body {
   padding: 15px;
   border: black solid 3px;
   border-radius: 15%;
+  height: 200px;
+  width: 400px;
+}
+
+.types {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.types h2 {
+  text-decoration: underline;
 }
 
 .dexEntry h1 {
@@ -53,12 +66,22 @@ body {
   background-color: white;
 }
 
+.abilitiesAll {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
 .abilities {
   background-color: rgb(249, 230, 121);
   border: black solid 5px;
   border-radius: 15%;
   margin: 10px;
   text-transform: capitalize;
+  padding: 8px;
 
 }
 

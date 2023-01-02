@@ -2,7 +2,7 @@ import React from "react";
 
 const SinglePokemon = (props) => {
   const pokeDexData = props.pokeDexData;
-  // console.log(pokeDexData, "fetchresults");
+  console.log(pokeDexData, "fetchresults");
 
   return (
     <>
@@ -16,11 +16,20 @@ const SinglePokemon = (props) => {
             src={pokeDexData.sprites.front_default}
             alt="pokemonPic"
           />
+          <div className="types">
+            {pokeDexData.types.map((type) => {
+              return (
+                <div className="pokeTypes">
+                  <h2> {type.type.name} </h2>
+                </div>
+              )
+            })}
+          </div>
           <div className="abilitiesAll">
             {pokeDexData.abilities.map((ability) => {
               return (
                 <div className="abilities" key={ability.id}>
-                  <h2> {ability.ability.name} </h2>
+                  <h3> {ability.ability.name} </h3>
                 </div>
               );
             })}
