@@ -8,7 +8,7 @@ frontend:
       commands:
         - node -v
         - npm run-script build
-  artifacts:
+  Artifact:
     baseDirectory: build
     files:
       - '**/*'
